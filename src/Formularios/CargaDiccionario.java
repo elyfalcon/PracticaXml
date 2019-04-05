@@ -1,8 +1,11 @@
 package Formularios;
 
 
+import java.util.ArrayList;
+import java.util.List;
 import javax.swing.JComboBox;
 import practicaxml.Diccionario;
+import practicaxml.Palabras;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -19,7 +22,7 @@ public class CargaDiccionario extends javax.swing.JFrame {
     /**
      * Creates new form CargaDiccionario
      */
-    
+     private ArrayList<Palabras> lista;
     public Diccionario miDiccionariodelFrm;
     public CargaDiccionario() {
         initComponents();
@@ -174,11 +177,16 @@ public class CargaDiccionario extends javax.swing.JFrame {
 
     private void JBAgregarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JBAgregarActionPerformed
        
-   //    miDiccionariodelFrm=new Diccionario(TextPalabra.getText(),TextDesc.getText());
-     //  miDiccionariodelFrm.setLista(TextPalabra.getText(),TextDesc.getText());
-    //   miDiccionariodelFrm.getLista().add(TextPalabra.getText(),1,TextDesc.getText());
-      // miDiccionariodelFrm.Cargar();
-       miDiccionariodelFrm.agregarPalabra(TextPalabra.getText(), 1, TextDesc.getText());
+        List dicciolist=new ArrayList();
+        String nombre=TextPalabra.getText();
+        String desc=TextDesc.getText();
+        
+        lista=new ArrayList<Palabras>();
+        
+   
+       
+     
+       
         
         
     }//GEN-LAST:event_JBAgregarActionPerformed
