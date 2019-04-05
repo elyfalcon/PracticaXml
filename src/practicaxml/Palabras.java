@@ -22,7 +22,7 @@ public class Palabras {
         this.descripcion = descripcion;
     }
 
-    public Palabras(String palabra) {
+    public Palabras() {
         
     }
     
