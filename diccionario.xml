@@ -28,6 +28,19 @@
      </void>
     </object>
    </void>
+   <void method="add">
+    <object class="practicaxml.Palabras">
+     <void property="descripcion">
+      <string>Herramienta para golpear</string>
+     </void>
+     <void property="nivel">
+      <int>3</int>
+     </void>
+     <void property="palabra">
+      <string>estrella</string>
+     </void>
+    </object>
+   </void>
   </void>
  </object>
 </java>

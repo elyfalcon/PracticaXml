@@ -29,6 +29,10 @@ public class Diccionario {
         lista = new ArrayList<Palabras>();
     }
 
+    public Diccionario(String text, String text0) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     // </editor-fold>    
     //<editor-fold desc="Get-Set">
     //</editor-fold>
@@ -38,6 +42,7 @@ public class Diccionario {
     {
         getLista().add(new Palabras("casa",1,"lugar donde se habita"));
         getLista().add(new Palabras("martillo",2,"Herramienta para golpear"));
+        getLista().add(new Palabras("estrella",3,"Herramienta para golpear"));
        
     }
 
@@ -111,6 +116,10 @@ public class Diccionario {
 
     public void setLista(ArrayList<Palabras> lista) {
         this.lista = lista;
+    }
+
+    public void setLista(String text, String text0) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
 }
